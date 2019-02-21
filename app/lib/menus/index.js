@@ -68,7 +68,7 @@ class Menus {
     ]));
 
     this.tray = new Tray(this.iconPath);
-    this.tray.setToolTip('Microsoft Teams');
+    this.tray.setToolTip('Microsoft Outlook');
     this.tray.on('click', () => {
       if (window.isFocused()) {
         window.hide();

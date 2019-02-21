@@ -8,11 +8,11 @@ exports = module.exports = (app) => {
     submenu: [
       {
         label: 'Online Documentation',
-        click: () => open('https://support.office.com/en-us/teams?omkt=en-001')
+        click: () => open('https://support.office.com/en-us/outlook?omkt=en-001')
       },
       {
         label: 'Github Project',
-        click: () => open('https://github.com/ivelkov/teams-for-linux')
+        click: () => open('https://github.com/lotheovian/outlook-for-linux')
       },
       { type: 'separator' },
       {

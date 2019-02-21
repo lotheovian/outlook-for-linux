@@ -6,12 +6,12 @@ const path = require('path');
 function argv(configPath) {
   return yargs
     .env(true)
-    .config(path.join(configPath, 'teams.json'))
+    .config(path.join(configPath, 'outlook.json'))
     .options({
       'url': {
         demandOption: true,
-        default: 'https://teams.microsoft.com/',
-        describe: 'Microsoft Teams URL',
+        default: 'https://outlook.office365.com/',
+        describe: 'Microsoft Outlook URL',
         type: 'string'
       },
       'webDebug': {

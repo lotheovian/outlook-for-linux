@@ -36,7 +36,7 @@ function createWindow(iconPath) {
     autoHideMenuBar: true,
 
     webPreferences: {
-      partition: 'persist:teams',
+      partition: 'persist:outlook',
       preload: path.join(__dirname, 'browser', 'index.js'),
       nodeIntegration: false
     }
